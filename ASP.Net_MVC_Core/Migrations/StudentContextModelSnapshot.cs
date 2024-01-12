@@ -4,7 +4,6 @@ using ASP.Net_MVC_Core.DataBase;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ASP.Net_MVC_Core.Migrations
 {
@@ -205,7 +204,7 @@ namespace ASP.Net_MVC_Core.Migrations
 
                     b.HasKey("id");
 
-                    b.ToTable("Subject");
+                    b.ToTable("D_SUBJECT");
                 });
 
             modelBuilder.Entity("ASP.Net_MVC_Core.Models.Student", b =>

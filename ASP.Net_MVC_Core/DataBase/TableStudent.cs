@@ -4,9 +4,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ASP.Net_MVC_Core.DataBase
 {
-    
-	public class TableStudent
-	{
+
+    public class TableStudent
+    {
         [Key]
         public int id { get; set; }
         public string name { get; set; }
@@ -15,4 +15,3 @@ namespace ASP.Net_MVC_Core.DataBase
         public string address_full { get; set; }
     }
 }
-

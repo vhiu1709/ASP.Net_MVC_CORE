@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS1617: Invalid option '10.0' for /langversion. Use '/langversion:?' to list supported values.
+dotnet_diagnostic.CS1617.severity = warning
